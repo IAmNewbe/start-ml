@@ -1,7 +1,7 @@
 digraph Tree {
 node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
 edge [fontname="helvetica"] ;
-0 [label="PetalLengthCm <= 2.45\ngini = 0.667\nsamples = 135\nvalue = [46, 45, 44]\nclass = Iris-setosa", fillcolor="#fffefd"] ;
+0 [label="PetalWidthCm <= 0.8\ngini = 0.667\nsamples = 135\nvalue = [46, 45, 44]\nclass = Iris-setosa", fillcolor="#fffefd"] ;
 1 [label="gini = 0.0\nsamples = 46\nvalue = [46, 0, 0]\nclass = Iris-setosa", fillcolor="#e58139"] ;
 0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
 2 [label="PetalLengthCm <= 4.85\ngini = 0.5\nsamples = 89\nvalue = [0, 45, 44]\nclass = Iris-versicolor", fillcolor="#fbfefc"] ;
@@ -20,7 +20,7 @@ edge [fontname="helvetica"] ;
 2 -> 8 ;
 9 [label="PetalLengthCm <= 5.35\ngini = 0.49\nsamples = 7\nvalue = [0, 3, 4]\nclass = Iris-virginica", fillcolor="#e0cef8"] ;
 8 -> 9 ;
-10 [label="SepalWidthCm <= 2.9\ngini = 0.48\nsamples = 5\nvalue = [0, 3, 2]\nclass = Iris-versicolor", fillcolor="#bdf6d5"] ;
+10 [label="SepalLengthCm <= 6.5\ngini = 0.48\nsamples = 5\nvalue = [0, 3, 2]\nclass = Iris-versicolor", fillcolor="#bdf6d5"] ;
 9 -> 10 ;
 11 [label="PetalWidthCm <= 1.55\ngini = 0.444\nsamples = 3\nvalue = [0, 1, 2]\nclass = Iris-virginica", fillcolor="#c09cf2"] ;
 10 -> 11 ;
